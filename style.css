@@ -1,0 +1,59 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    background-color: black;
+    background-size: cover;    
+    
+    
+}
+
+.logo{
+    position: fixed;
+    margin: 3em 7em;
+    transform: translate(-50%, -50%);
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 18px;
+    z-index: 1;
+}
+
+.logo .color{
+    color: #e2e0d4;
+    
+}
+
+
+.img-strip{
+    position: fixed;
+    top: 5%;
+    right: 0;
+    height: 10vh;
+    margin: 3em 3.5em;
+    transform: translate(-50%, -50%);    
+    opacity: 50%;
+    z-index: 1;
+}
+
+
+.title{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-50%, 50%);
+    font-family: "Nunito";
+    color: #e2e0d4;
+    font-size: 90px;
+    z-index: 1;
+}
+
+.image{
+    position: relative;
+    transform: translate(180%, 20%);
+    height: 80vh;
+    border-radius: 2px;
+}
+
+
+
